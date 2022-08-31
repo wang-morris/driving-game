@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+
+.page-container {
+  height: 100vh;
+  background-color: #2e8524;
+}
+
+.car-container {
+  height: 7rem;
+}
+
+img {
+  max-height: 100%;
+}
