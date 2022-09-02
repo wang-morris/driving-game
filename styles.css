@@ -2,15 +2,41 @@
   margin: 0;
 }
 
+body {
+  overflow: hidden;
+}
+
 .page-container {
+  padding-top: 5vh;
   height: 100vh;
   background-color: #2e8524;
+  overflow: visible;
 }
 
 .car-container {
-  height: 7rem;
+  height: 10vh;
+  width: 10vh;
 }
 
-img {
+.up {
   max-height: 100%;
+  transform: rotate(-90deg);
+}
+
+.down {
+  max-height: 100%;
+  transform: rotate(90deg);
+}
+
+.left {
+  max-height: 100%;
+  transform: rotate(180deg);
+}
+
+.right {
+  max-height: 100%;
+}
+
+.hidden {
+  display: none;
 }
