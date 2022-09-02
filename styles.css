@@ -7,15 +7,16 @@ body {
 }
 
 .page-container {
-  padding-top: 5vh;
+  padding-top: 4vh;
   height: 100vh;
   background-color: #2e8524;
   overflow: visible;
 }
 
-.car-container {
-  height: 10vh;
-  width: 10vh;
+img {
+  position: absolute;
+  height: 8vh;
+  width: 15vh;
 }
 
 .up {
